@@ -1,0 +1,97 @@
+/* Start Style Whole Container of Section */
+.welcome__section{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #101418), url('../../../../assets/Opening.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+/* End Style Whole Container of Section */
+
+
+/* Start Nav Style */
+nav {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color : #101418;
+    line-height: 1.5;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 24px ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.booking-btn{
+    background-color: #A08040;
+    width: 272px;
+    padding: 14px 16px;
+    font-weight: bold;
+    font-size: 21px;
+    color: #FFFCCC;
+    border-width: 0;
+}
+
+
+.logo{
+    width: 79px;
+    background-color: #101418;
+    background-size: contain;
+}
+/* End Nav Style */
+
+/* Start style Welcome Opening Section */
+.welcome__opening{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    height: 50%;
+}
+.opening{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 80px;
+}
+.title{
+    font-family:'Roboto', sans-serif ;
+    text-align: center;
+    color: #FFFCCC;
+    font-weight: bold;
+    font-size: 40px;
+}
+.title{     
+    color: white;
+}
+.explore{
+    color: #FFFCCC;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.btn{
+    border-color: #FFFCCC;
+    background: none;
+    border-width: 0.2px;
+    width: 25vh;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+/* End style Welcome Opening Section */
