@@ -1,0 +1,46 @@
+.aboutus__section{
+    padding: 20vh 10vh;
+    height: 95vh;
+    margin: 0;
+}
+.container__aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content__aboutus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title__aboutUs{
+    color: #FFCE6D;
+    font-size: 36px;
+    font-family:  serif;
+    font-weight: bold    
+}
+.ads__AboutUs{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.description__AboutUs{
+    font-size: 14px;
+    color: #FFFFFC;
+    text-align: left;
+    width: 60%;
+    line-height: 19px;
+}
+.btn{
+    border-color: #FFFCCC;
+    background: none;
+    border-width: 0.2px;
+    width: 25vh;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}

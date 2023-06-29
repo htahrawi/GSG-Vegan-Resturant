@@ -8,3 +8,11 @@
 .container__Home{
     box-sizing: border-box;
 }
+.stars__container{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #101418), url('../../assets/strars.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+    width: 100%;
+}
