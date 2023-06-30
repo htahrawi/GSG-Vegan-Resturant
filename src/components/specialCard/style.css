@@ -1,0 +1,39 @@
+.special__card{
+    padding: 3rem 1rem;
+    background-color: rgb(170, 128, 64, .3);
+    width: 30%;
+    border-style: dotted;
+    border-width: .5px;
+    height: 60vh;
+    border-color: #FFCE6D;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header__special__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: space-between;
+    height: 40%;
+}
+.feature-image__special{
+    width: auto;
+    height: auto;
+    display: block;
+}
+.feature__special{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFC;
+}
+.desc__special{
+    font-size: 14px;
+    color: #FFFFFC;
+    text-align: left;
+    word-spacing: 1rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.special__container{
+    background-color: rgb(16, 20, 24,.7);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.title__special{
+    color: #FFCE6D;
+    opacity: .9px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+}
+.ads__special{
+    display: block;
+    color: #FFFFFC;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+/* End Header Special Section Style */
+
+/* Start Content Special Section Style */
+.content__special{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
