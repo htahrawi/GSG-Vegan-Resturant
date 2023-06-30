@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import WelcomeSection from './sections/WelcomeSection';
 import './style.css'
 import AboutUsSection from './sections/AboutUsSection';
+import SpecialSection from './sections/SpecialSection';
+import MenuSection from './sections/MenuSection';
 class HomePage extends Component {
   render() {
     return (
@@ -9,6 +11,8 @@ class HomePage extends Component {
             <WelcomeSection />
             <div className="stars__container">
               <AboutUsSection />
+              <SpecialSection />
+              <MenuSection />
             </div>
           </div>
       )
