@@ -20,18 +20,22 @@
 .meal-title{
     font-size: 16px;
     padding-left: 1rem ;
+    white-space: nowrap;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
 }
 .meal-desc{
     font-size: 14px;
     padding-left: 1rem ;
     padding-top: .4rem ;
+    font-family: 'Roboto', sans-serif;
+
 }
 .solid-line{
     display: block;
     border: none;
     height: 1px;
-    width: 123px;
+    width: 90px ;
     background-color: #FFCE6D;
     margin-left: 1rem;
 }
@@ -39,4 +43,5 @@
     color: #FFCE6D;
     font-weight: bold;
     font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
