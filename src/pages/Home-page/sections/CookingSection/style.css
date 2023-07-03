@@ -1,0 +1,34 @@
+.cooking__container{
+    padding: 4rem 0 ;
+}
+.cooking__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000;
+    width: 100% ;
+    height: 55vh;
+}
+.cooking-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cooking-title{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: #FFCE6D;
+}
+.cooking-ads{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFC;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cooking-desc{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFC;
+    font-size: 14px;
+    max-width: 41ch;
+}
