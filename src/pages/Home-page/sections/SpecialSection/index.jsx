@@ -1,14 +1,10 @@
 import React, { Component } from 'react'
 import Container from '../../../../components/container'
 import './style.css'
-import JuiceImage from '../../../../assets/juice.png';
-import ChefImage from '../../../../assets/chef.png';
-import DishesImage from '../../../../assets/dishes.png'
 import SpecialCard from '../../../../components/specialCard';
 class SpecialSection extends Component {
     render() {
         return (
-            // <Container newClass="Special__Container">
             <div className='special__container'>
                 <Container>
                     <div className="header__special">
@@ -23,17 +19,17 @@ class SpecialSection extends Component {
                     <br /><br /><br />
                     <section className="content__special">
                         <SpecialCard
-                            specialImage={JuiceImage}
+                            specialImage='/assets/juice.png'
                             featureTitle='Fresh food'
                             featureDesc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. '
                         />
                         <SpecialCard
-                            specialImage={ChefImage}
+                            specialImage='/assets/chef.png'
                             featureTitle='skilled Chef'
                             featureDesc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. '
                         />
                         <SpecialCard
-                            specialImage={DishesImage}
+                            specialImage='/assets/dishes.png'
                             featureTitle='Exotic dishes'
                             featureDesc='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. '
                         />
@@ -41,7 +37,6 @@ class SpecialSection extends Component {
                 </Container>
 
             </div>
-            // </Container>
         )
     }
 }

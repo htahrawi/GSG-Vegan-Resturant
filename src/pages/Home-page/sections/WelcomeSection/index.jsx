@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
 import Container from '../../../../components/container'
-import Logo from '../../../../assets/logo.png'
 class WelcomeSection extends Component {
     render() {
         return (
@@ -9,7 +8,7 @@ class WelcomeSection extends Component {
                 <Container>
                     <div className="opening">
                         <nav>
-                            <img src={Logo} alt="" className='logo'/>
+                            <img src='/assets/logo.png' alt="" className='logo'/>
                             <ul>
                                 <li><a href='#home'><span>Home</span></a></li>
                                 <li><a href='#about-us'><span>About Us</span></a></li>
