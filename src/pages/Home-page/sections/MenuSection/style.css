@@ -6,7 +6,7 @@
     opacity: .9px;
     font-weight: bold;
     font-size: 36px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Dancing Script', cursive; */
     text-align: center;
     display: block;
 }
@@ -20,7 +20,7 @@
 .content_menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
     /* background-color: blue; */
     padding: 2rem 0;

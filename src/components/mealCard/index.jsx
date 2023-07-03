@@ -12,7 +12,7 @@ class MealCard extends Component {
                     </div>
                     <hr className='solid-line' />
                 </div>
-                <p className='meal-price'>Rs {this.props.price}</p>
+                <p className='meal-price'>&nbsp;RS&nbsp;{this.props.price}</p>
             </div>
         )
     }

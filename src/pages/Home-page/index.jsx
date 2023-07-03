@@ -4,6 +4,7 @@ import './style.css'
 import AboutUsSection from './sections/AboutUsSection';
 import SpecialSection from './sections/SpecialSection';
 import MenuSection from './sections/MenuSection';
+import DiscountSection from './sections/DiscountSection';
 class HomePage extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class HomePage extends Component {
               <AboutUsSection />
               <SpecialSection />
               <MenuSection />
+              <DiscountSection />
             </div>
           </>
           //  {/* </div> */}
