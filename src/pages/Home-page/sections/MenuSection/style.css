@@ -1,0 +1,76 @@
+.menu__container{
+    padding: 3rem;
+}
+.title__menu{
+    color: #FFCE6D;
+    opacity: .9px;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+}
+.ads__menu{
+    display: block;
+    color: #FFFFFC;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.content_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    padding: 2rem 0;
+}
+.menu__card{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.meal-image{
+    width: auto;
+    height: auto;
+}
+.meal-info{
+    color: #FFFFFC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.meal-title{
+    font-size: 16px;
+    padding-left: 1rem ;
+    font-weight: bold;
+}
+.meal-desc{
+    font-size: 14px;
+    padding-left: 1rem ;
+    padding-top: .4rem ;
+}
+.solid-line{
+    display: block;
+    border: none;
+    height: 1px;
+    width: 123px;
+    background-color: #FFCE6D;
+    margin-left: 1rem;
+}
+.meal-price{
+    color: #FFCE6D;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hr-info { 
+    display: block;
+    overflow: hidden;
+    border-style: inset; 
+    border-width: 1px;
+    background-color: red;
+}
