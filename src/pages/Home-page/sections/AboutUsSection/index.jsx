@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
 import Container from '../../../../components/container'
-import AboutUsImage from '../../../../assets/aboutUsImage.png'
 class AboutUsSection extends Component {
     render() {
         return (
@@ -19,7 +18,7 @@ class AboutUsSection extends Component {
                         </div>
                         <button className='btn'>Read more</button>
                     </div>
-                    <img src={AboutUsImage} alt="AboutUsImage" />
+                    <img src='/assets/aboutUsImage.png' alt="AboutUsImage" />
                 </Container>
             </div>
         )

@@ -7,12 +7,14 @@
 }
 .container__Home{
     box-sizing: border-box;
+    width: 100%;
 }
 .stars__container{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #101418), url('../../assets/strars.png');
-    background-size: auto;
+    background-image: url('../../../public/assets/strars.png');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 200vh;
-    width: 100%;
+    /* height: 200px; */
+    width: auto;
+    margin: 0;
 }
