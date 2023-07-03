@@ -1,0 +1,42 @@
+.menu__card{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.meal-image{
+    width: auto;
+    height: auto;
+}
+.meal-info{
+    color: #FFFFFC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.meal-title{
+    font-size: 16px;
+    padding-left: 1rem ;
+    font-weight: bold;
+}
+.meal-desc{
+    font-size: 14px;
+    padding-left: 1rem ;
+    padding-top: .4rem ;
+}
+.solid-line{
+    display: block;
+    border: none;
+    height: 1px;
+    width: 123px;
+    background-color: #FFCE6D;
+    margin-left: 1rem;
+}
+.meal-price{
+    color: #FFCE6D;
+    font-weight: bold;
+    font-size: 20px;
+}
