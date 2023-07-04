@@ -8,30 +8,30 @@ const Meals = [
     },
     {
         id: 2,
-        title:'Lorem ipsum dolor sit amet',
+        title:'Vivamus sodales augue vita',
         description: 'Lorem ipsum dolor sit amet',
         price: 900,
         image: '/assets/meal1.png'
     },
     {
         id: 3,
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Pellentesque semper semper',
         description: 'Lorem ipsum dolor sit amet',
-        price: 450,
+        price: 222,
         image: '/assets/meal2.png'
     },
     {
         id: 4,
-        title: 'Lorem ipsum dolor sit amet',
+        title: 'Vivamus sodales augue vita',
         description: 'Lorem ipsum dolor sit amet',
-        price: 450,
+        price: 130,
         image: '/assets/meal3.png'
     },
     {
         id: 5,
-        title:'Lorem ipsum dolor sit amet',
+        title:'Phasellus convallis maximus',
         description: 'Lorem ipsum dolor sit amet',
-        price: 450,
+        price: 135,
         image: '/assets/meal3.png'
     },
     {
@@ -57,16 +57,16 @@ const Meals = [
     },
     {
         id: 1,
-        title:'Lorem ipsum dolor sit amet',
+        title:'Vivamus sodales augue vita',
         description: 'Lorem ipsum dolor sit amet',
-        price: 450,
+        price: 130,
         image: '/assets/meal5.png'
     },
     {
         id: 1,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
-        price: 450,
+        price: 135,
         image: '/assets/meal6.png'
     },
     {
