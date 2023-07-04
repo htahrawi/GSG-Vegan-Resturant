@@ -22,7 +22,7 @@ class MenuSection extends Component {
                             Meals.map((meal)=>{
                                 return (
                                     <MealCard 
-                                        id={meal.id}
+                                        key={meal.id}
                                         image={meal.image}
                                         title={meal.title}
                                         desc={meal.description}

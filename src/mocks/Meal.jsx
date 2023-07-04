@@ -35,42 +35,42 @@ const Meals = [
         image: '/assets/meal3.png'
     },
     {
-        id: 1,
+        id: 6,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
         price: 450,
         image: '/assets/meal4.png'
     },
     {
-        id: 1,
+        id: 7,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
         price: 450,
         image: '/assets/meal4.png'
     },
     {
-        id: 1,
+        id: 8,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
         price: 450,
         image: '/assets/meal5.png'
     },
     {
-        id: 1,
+        id: 9,
         title:'Vivamus sodales augue vita',
         description: 'Lorem ipsum dolor sit amet',
         price: 130,
         image: '/assets/meal5.png'
     },
     {
-        id: 1,
+        id: 10,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
         price: 135,
         image: '/assets/meal6.png'
     },
     {
-        id: 1,
+        id: 11,
         title:'Lorem ipsum dolor sit amet',
         description: 'Lorem ipsum dolor sit amet',
         price: 600,
