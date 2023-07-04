@@ -1,0 +1,40 @@
+.statistics__section{
+    background-color: rgb(16, 20, 24,.7);
+    height: 20vh;
+    padding: 2rem 0;
+}
+.statistics__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.statistics{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    width: 80%;
+}
+.statistic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 1rem;
+}
+.info__statistic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+.number{
+    font-size: 48px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: #FFCE6D;
+}
+.title__statistic{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFFFFC;
+}
