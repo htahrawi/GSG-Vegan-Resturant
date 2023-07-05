@@ -5,7 +5,7 @@ import SpecialCard from '../../../../components/specialCard';
 class SpecialSection extends Component {
     render() {
         return (
-            <div className='special__container'>
+            <div className='special__container' id='special'>
                 <Container>
                     <div className="header__special">
                         <strong className="title__special">

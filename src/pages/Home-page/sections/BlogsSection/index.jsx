@@ -5,7 +5,7 @@ import BlogCard from '../../../../components/blogCard';
 class BlogsSection extends Component {
     render() {
         return (
-            <div className="blogs__section">
+            <div className="blogs__section" id='blogs'>
                 <Container>
                     <div className="header__blogs">
                         <strong className='title__blogs'>Blogs</strong>

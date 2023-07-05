@@ -6,7 +6,7 @@ import Meals from '../../../../mocks/Meal'
 class MenuSection extends Component {
     render() {
         return (
-            <div className="menu__section">
+            <div className="menu__section" id='menu'>
                 <Container newClass='menu__container'>
                     <div className="header__menu">
                         <strong className="title__menu">
