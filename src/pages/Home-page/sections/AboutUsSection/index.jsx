@@ -4,7 +4,7 @@ import Container from '../../../../components/container'
 class AboutUsSection extends Component {
     render() {
         return (
-            <div className='aboutus__section'>
+            <div className='aboutus__section' id='about-us'>
                 <Container newClass='container__aboutus'>
                     <div className='content__aboutus'>
                         <div>

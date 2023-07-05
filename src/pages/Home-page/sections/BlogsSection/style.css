@@ -1,7 +1,9 @@
+.blogs__section{
+    padding: 4rem 0;
+}
 .header__blogs{
     text-align: center;
     padding: 4rem 0;
-
 }
 .title__blogs{
     font-size: 36px;

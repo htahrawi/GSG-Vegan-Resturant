@@ -7,7 +7,7 @@ class WelcomeSection extends Component {
             <div className="welcome__section">
                 <Container>
                     <div className="opening">
-                        <nav>
+                        <nav className='navBar'>
                             <img src='/assets/logo.png' alt="" className='logo'/>
                             <ul>
                                 <li><a href='#home'><span>Home</span></a></li>
@@ -15,7 +15,7 @@ class WelcomeSection extends Component {
                                 <li><a href='#special'><span>Special</span></a></li>
                                 <li><a href='#menu'><span>Menu</span></a></li>
                                 <li><a href='#blogs'><span>Blogs</span></a></li>
-                                <li><a href='#blogs'><img src="/assets/search.png" alt="" /></a></li>
+                                <li><a href='#'><img src="/assets/search.png" alt="" /></a></li>
                             </ul>
                             <button className='booking-btn'>Booking now</button>
                         </nav>
