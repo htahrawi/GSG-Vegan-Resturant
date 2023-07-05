@@ -7,6 +7,7 @@ import MenuSection from './sections/MenuSection';
 import DiscountSection from './sections/DiscountSection';
 import CookingSection from './sections/CookingSection';
 import StatisticsSection from './sections/StatisticsSection';
+import ReviewsSection from './sections/ReviewsSection';
 class HomePage extends Component {
   render() {
     return (
@@ -20,6 +21,7 @@ class HomePage extends Component {
               <DiscountSection />
               <CookingSection />
               <StatisticsSection />
+              <ReviewsSection />
             </div>
           </>
           //  {/* </div> */}
