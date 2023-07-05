@@ -1,0 +1,31 @@
+.card__blog{
+    width: 30%;
+    background-color: rgb(16, 20, 24,.7);
+}
+.blog__image{
+    width: 100%;
+}
+.content__card{
+    padding: 1rem;
+}
+.name__card{
+    font-size: 22px;
+}
+.p_card{
+    font-size: 16px;
+    line-height: 155%;
+    padding: 1rem 0;
+}
+.btn__card{
+    font-size: 14px;
+    text-transform: capitalize;
+    background: none;
+    color: #FFFFFC;
+    border: none;
+    border-bottom: 1px solid #FFCE6D;
+}
+.btn__card:hover{
+    cursor: pointer;
+    color: #FFCE6D;
+    border-bottom: 1px solid #FFFFFC;
+}

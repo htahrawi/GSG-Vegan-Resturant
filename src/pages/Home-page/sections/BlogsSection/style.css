@@ -1,0 +1,25 @@
+.header__blogs{
+    text-align: center;
+    padding: 4rem 0;
+
+}
+.title__blogs{
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+    color: #FFCE6D;
+    text-align: center;
+}
+.ads__blogs{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFC;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.cards__blogs{
+    color: #FFFFFC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
