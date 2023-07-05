@@ -7,7 +7,7 @@ class WelcomeSection extends Component {
             <div className="welcome__section">
                 <Container>
                     <div className="opening">
-                        <nav>
+                        <nav className='navBar'>
                             <img src='/assets/logo.png' alt="" className='logo'/>
                             <ul>
                                 <li><a href='#home'><span>Home</span></a></li>

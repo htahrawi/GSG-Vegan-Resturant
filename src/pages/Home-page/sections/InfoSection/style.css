@@ -1,0 +1,92 @@
+/* Start header styling */
+.info__section{
+    padding: 5rem 0;
+    color: #FFFFFC;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 20, 24,.7);
+}
+.info__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.media__info{
+    padding: .5rem 3rem;
+}
+.media__info img{
+    padding: 0 .4rem;
+}
+
+/* End header styling */
+
+/* Start desc__info styling */
+.desc__info{
+    width: 25%;
+}
+.header__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.res_name{
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.description{
+    padding: 1rem 3rem;
+    text-transform: capitalize;
+}
+/* End desc__info styling */
+
+
+/* start style links__info */
+
+.links__info{
+    width: 15%;
+}
+.title__info{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 3rem 0;
+}
+.ul__links{
+    padding-top: .5rem;    
+}
+.ul__links li{
+    padding: .3rem 0;
+    font-size: 16px;
+    letter-spacing: .09rem;
+}
+
+/* End style links__info */
+
+/* Start style contact__info */
+.contact__info{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact__info .title__info{
+    padding: 0;
+    padding-bottom: 1rem;
+}
+.contact__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: .5rem 0;
+    align-items: center;
+    font-size: 16px;
+}
+.contact__card img {
+    padding-right: .5rem;
+}
+
+/* End style contact__info */

@@ -15,7 +15,7 @@ nav {
     display: flex;
     justify-content: center;
 }
-ul {
+.navBar ul {
     list-style-type: none;
     margin: 0;
     background-color : #101418;
@@ -23,7 +23,7 @@ ul {
     padding-right: 2rem;
 }
 
-li {
+.navBar ul li {
     float: left;
 }
 
