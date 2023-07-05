@@ -8,6 +8,7 @@ import DiscountSection from './sections/DiscountSection';
 import CookingSection from './sections/CookingSection';
 import StatisticsSection from './sections/StatisticsSection';
 import ReviewsSection from './sections/ReviewsSection';
+import BlogsSection from './sections/BlogsSection';
 class HomePage extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ class HomePage extends Component {
               <CookingSection />
               <StatisticsSection />
               <ReviewsSection />
+              <BlogsSection />
             </div>
           </>
           //  {/* </div> */}

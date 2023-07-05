@@ -16,15 +16,15 @@ class ReviewsSection extends Component {
                     <section className="cards__container">
                         <div className="comment__card">
                             <div className="header__card">
-                                <img src="/assets/profile.png" alt="" />
+                                <img src="/assets/profile.png" alt="profile" />
                                 <div className="name-rate__card">
                                     <strong className='name_reviwer'>Alex andrina</strong>
                                     <br />
-                                    <img src="/assets/star.png" alt="" />
-                                    <img src="/assets/star.png" alt="" />
-                                    <img src="/assets/star.png" alt="" />
-                                    <img src="/assets/star.png" alt="" />
-                                    <img src="/assets/star.png" alt="" />
+                                    <img src="/assets/star.png" alt="star-icon" />
+                                    <img src="/assets/star.png" alt="star-icon" />
+                                    <img src="/assets/star.png" alt="star-icon" />
+                                    <img src="/assets/star.png" alt="star-icon" />
+                                    <img src="/assets/star.png" alt="star-icon" />
                                 </div>
                             </div>
                             <p className="comment">
