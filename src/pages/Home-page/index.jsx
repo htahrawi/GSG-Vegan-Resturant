@@ -11,6 +11,7 @@ import ReviewsSection from './sections/ReviewsSection';
 import BlogsSection from './sections/BlogsSection';
 import InfoSection from './sections/InfoSection';
 import Subscribtion from './sections/Subscribtion';
+import FooterSection from './sections/FooterSection';
 class HomePage extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class HomePage extends Component {
               <BlogsSection />
               <InfoSection />
               <Subscribtion />
+              <FooterSection />
             </div>
           </>
           //  {/* </div> */}
