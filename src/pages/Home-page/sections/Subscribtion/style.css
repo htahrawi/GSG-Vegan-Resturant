@@ -1,0 +1,23 @@
+.subscribtion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 4rem;
+}
+.email-container{
+    display: flex;
+    align-items: center;
+}
+.email-label{
+    color: #FFFFFC;
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .2px;
+}
+.email-input{
+    color: #fffffC;
+    width: 35%;
+    background: none;
+    padding: 10px;
+}
