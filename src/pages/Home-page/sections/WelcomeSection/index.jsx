@@ -15,7 +15,7 @@ class WelcomeSection extends Component {
                                 <li><a href='#special'><span>Special</span></a></li>
                                 <li><a href='#menu'><span>Menu</span></a></li>
                                 <li><a href='#blogs'><span>Blogs</span></a></li>
-                                <li><a href='#'><img src="/assets/search.png" alt="" /></a></li>
+                                <li><a href='#search'><img src="/assets/search.png" alt="" /></a></li>
                             </ul>
                             <button className='booking-btn'>Booking now</button>
                         </nav>
